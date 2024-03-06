@@ -17,13 +17,11 @@ As extensões de sintaxe de arquivos comumente usadas em React são `.JSX,` mas 
 
 O React Native é um framework `open source`, ou seja, de código aberto, que serve como base para o desenvolvimento de aplicativos para dispositivos móveis iOS e Android. Ele se baseia na ideia de `componentização`, o que significa que você pode criar elementos como botões e reutilizá-los em diferentes partes do seu código, o que economiza recursos e tempo de produção.
 
-
-<img src="https://fga-eps-mds.github.io/2018.2-CarDefense/docs/assets/images/diagrama_react.png" alt="image">
-
-
-
 No React Native, a linguagem de programação utilizada é o JavaScript. Isso permite que os desenvolvedores acessem `APIs` usando JavaScript e programem eventos e comportamentos dentro do aplicativo ou sistema que estão desenvolvendo.
 
+# Como Funciona e Arquitetura
+
+<img src="https://fga-eps-mds.github.io/2018.2-CarDefense/docs/assets/images/diagrama_react.png" alt="image">
 
 # Suas Vantagens
 
