@@ -53,10 +53,10 @@ Esta importação puxa de uma biblioteca que precisa ser baixada ou que já é b
 
 Outro exemplo de importações é a linguagem C com o #include <studio.h>.
 
-### Text 
+###Text
 
 
-A tag Text atua como um **<p>** ou <h1> etc, no HTML convencional, atribuindo textos em seu código. A tag também necessita de importação e precisa obrigatoriamente estar dentro do componente pai, ou seja a <**View**>. 
+A tag Text atua como um <p> ou <h1> etc, no HTML convencional, atribuindo textos em seu código. A tag também necessita de importação e precisa obrigatoriamente estar dentro do componente pai, ou seja a <View>. 
 
 
 import { Text } from "react.....";
