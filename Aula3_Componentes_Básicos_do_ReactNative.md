@@ -10,6 +10,7 @@ Quando comparamos seu uso, podemos dizer que ele opera semelhante a uma <**div**
 
 O View opera quase como um body também, pois todos os elementos para serem exibidos devem estar contidos nele.
 
+`
 
 import { View } from 'react.....';
 
@@ -35,7 +36,7 @@ Function MinhaPrimeiraTela(){
 
 }
 
-
+`
 
 ### Onde minhas importações ficam?
 
@@ -58,6 +59,7 @@ Outro exemplo de importações é a linguagem C com o #include <studio.h>.
 
 A tag Text atua como um <p> ou <h1> etc, no HTML convencional, atribuindo textos em seu código. A tag também necessita de importação e precisa obrigatoriamente estar dentro do componente pai, ou seja a <View>. 
 
+`
 
 import { Text } from "react.....";
 
@@ -92,6 +94,7 @@ Function MinhaPrimeiraTela(){
 
 }
 
+`
 
 ### Image 
 
