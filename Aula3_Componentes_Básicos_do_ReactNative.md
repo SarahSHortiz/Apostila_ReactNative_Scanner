@@ -9,34 +9,19 @@ o View dentro da estrutura do React Native exibe o conteúdo que está inserido 
 Quando comparamos seu uso, podemos dizer que ele opera semelhante a uma <**div**>, porém sua sintaxe é `<View><\View>`.Embora a tag seja escrita no corpo do código e necessário fazer sua importação. 
 
 O View opera quase como um body também, pois todos os elementos para serem exibidos devem estar contidos nele.
-
-`
-
-import { View } from 'react.....';
-
-
-import { Button } from 'react.....';
-
+```
+import { View } from "react.....";
 
 Function MinhaPrimeiraTela(){
 
-  return(
+ return(
+    <View>
+      <Button>
+        Clique aqui!
+      </Button>
+    </View>
+```
 
-     <View>
-
-         <Button>
-
-            Clique aqui!
-
-         <\Button>
-
-     </View>
-
-  )
-
-}
-
-`
 
 ### Onde minhas importações ficam?
 
@@ -54,47 +39,27 @@ Esta importação puxa de uma biblioteca que precisa ser baixada ou que já é b
 
 Outro exemplo de importações é a linguagem C com o #include <studio.h>.
 
-###Text
+### Text
 
+import { Text } from "react....."; 
 
-A tag Text atua como um <p> ou <h1> etc, no HTML convencional, atribuindo textos em seu código. A tag também necessita de importação e precisa obrigatoriamente estar dentro do componente pai, ou seja a <View>. 
+A tag Text atua como um p ou h1, no html convencional, atribuindo textos em seu código. A tag também necessita de importação e precisa obrigatoriamente estar dentro do componente pai, ou seja a View. 
 
-`
-
-import { Text } from "react.....";
-
-
-import { View } from 'react.....';
-
-
-import { Button } from 'react.....';
-
+```
+import { Text } from "react....."; 
 
 Function MinhaPrimeiraTela(){
 
-  return(
+ return(
 
      <View>
 
-         <Text>
+         <Text>Olá 👋 eu sou a Sarah e esse é meu primeiro texto no meu código!</Text>
 
-          Olá 👋 eu sou a Sarah e esse é meu primeiro          texto no meu código!
+     </View>)}
 
-         <\Text>
+```
 
-         <Button>
-
-            Clique aqui!
-
-         <\Button>
-
-     </View>
-
-  )
-
-}
-
-`
 
 ### Image 
 
