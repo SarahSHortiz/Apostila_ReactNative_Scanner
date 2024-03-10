@@ -1,4 +1,14 @@
 # Configuração do Ambiente de Desenvolvimento e Emulador
+
+## Comandos de instalação do Expo
+ 
+npm install --global expo-cli
+
+logo após 
+
+expo init nomedoprojeto
+
+
 # Chocolatey
 
 O Chocolatey ou Choco é um gerenciador de pacotes do Windows ao qual permite o usuário da maquina instalar ferramentas, aplicações, gerancimanto e atualizações diretamente pelo `terminal`.
