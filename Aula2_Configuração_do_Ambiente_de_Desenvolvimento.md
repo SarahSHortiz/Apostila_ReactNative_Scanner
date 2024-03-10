@@ -2,11 +2,19 @@
 
 ## Comandos de instalação do Expo
  
-npm install --global expo-cli
+` npm install --global expo-cli `
 
-logo após 
+Logo após 
 
-expo init nomedoprojeto
+` expo init nomedoprojeto `
+
+` cd nomedoprojeto `
+
+` code . `
+
+## Iniciar o projeto no terminal
+
+`npm start`
 
 
 # Chocolatey
