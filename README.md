@@ -28,6 +28,7 @@ Criada pela Expo para incorporar e executar projetos React Native e compartilhar
 - React Native
 
 ## Hardwares
+Para o projeto usaremos apenas smartphones e sua câmera nativa/própria.
 
 ## APIS
   
